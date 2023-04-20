@@ -2,3 +2,12 @@
     width: 300px;
 }
 
+.main-light {
+    color: #7AA376;
+    background-color: #DBF9D8;
+}
+
+.main-dark {
+    color: #DBF9D8;
+    background-color: #7AA376;
+}

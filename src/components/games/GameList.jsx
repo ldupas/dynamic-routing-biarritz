@@ -26,7 +26,7 @@ const GameList = () => {
                 games
                 .filter((game) => (game.rating >= 4.25))
                 .map((game) => (
-                    <GameCard key={game.id} game={game} id={game.id} />
+                    <GameCard key={game.id} game={game} />
                 )) 
                 }
                 </div>
@@ -36,7 +36,7 @@ const GameList = () => {
                 {
                 games
                 .map((game) => (
-                    <GameCard key={game.id} game={game} id={game.id} />
+                    <GameCard key={game.id} game={game} />
                 ))
                 }
                 </div>
